@@ -1,5 +1,8 @@
 Welcome to the Buvstreamer-Server wiki!
 
+* **Server**
+
+    - 서비스 서버: http://service.buv.co.kr/
 
 
 * **BASE URL**
