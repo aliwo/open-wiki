@@ -21,7 +21,7 @@ Welcome to the Buvstreamer-Server wiki!
     "Authorization" : "Bearer ya29.Glu8BiFpCmKKHH90rbgLw1HrZJQCZ6KkpFzrCVLkJDMRAO4KdDOp9IPziXN5JDvZrh9tXRAdaaRcLLGe27sSJ-qM8Ok-cB5sxMi0aaoZcZj3a2a_pMQYFKdDZuHj"
     ```
     
-    토큰의 유효기간은 1시간이며, 앱 내부적으로 login 을 호출하여 만료 전에 refresh 해주어야 합니다.
+    토큰의 유효기간은 1시간이며, 앱 내부적으로 refresh_token 을 호출하여 만료 전에 refresh 해주어야 합니다.
     자세한건 **[사용자] refresh token** 문서 참조
 
 
