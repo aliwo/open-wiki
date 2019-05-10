@@ -7,7 +7,7 @@
 
 * **URL**
 
-  /auth/refresh_token
+  /user/hotbuv
 
 * **Method:**
   
