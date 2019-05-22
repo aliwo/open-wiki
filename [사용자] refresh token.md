@@ -36,7 +36,7 @@
     **Content:**
     
   ```json
-      {"ok": true, "access_token": "<access token 값>"}
+      {"okay": true, "access_token": "<access token 값>"}
    ```    
  
 * **Error Response:**

@@ -33,7 +33,7 @@
     **Content:** `auth/login_callback` 으로 리다이렉트 되며, 성공시 아래 response 를 받습니다.
     
   ```json
-      {"ok": true, "access_token": "<access token 값>"}
+      {"okay": true, "access_token": "<access token 값>"}
    ```    
  
 * **Error Response:**

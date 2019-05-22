@@ -35,7 +35,7 @@
     **Content:** 
     ```json
         {
-            "ok": true,
+            "okay": true,
             "access_token": "ya29.GlsIB-H6uaU9vBqNM5JidVfl0Eog5gHmLwrZQSL0gPRwUDBJp9LCgiXM6BwfmOEt4icQpJN-X1oWNtdJR0-oCYQwNBL-DHnNlBfa2CXzfRj7I_cN-NmyOwUEXXPN"
         }
     ```
