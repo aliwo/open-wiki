@@ -1,39 +1,4 @@
-**클립 조회**
-----
-  
-  클립 하나를 조회 합니다.
-
-* **URL**
-
-  /clip/<int:clip_id>
-
-* **Method:**
-  
-  | `GET` |
-  
-*  **URL Params**
-
-   **Required:**
- 
-   N/A
-   
-   **Optional:**
- 
-   N/A
-
-* **Data Params**
-
-    N/A
-    
-    **Optional:**
-    N/A
-
-* **Success Response:**
-  
-  * **Code:** 200 <br />
-    **Content:** 
-    [최신 클립 데이터구조](structure_clip.md)
-    ```json
+```
     {
         "id": 148, 
         "video_id": "124765813", 
@@ -65,25 +30,4 @@
         "has_hearted": true, 
         "has_bookmarked": true
     }
-    ```
-    has_liked, has_hearted, has_bookmarked 는 요청한 유저를 기준으로
-    자신이 좋아요를 했는지, 하트를 주었는지, 앨범에 (하나라도) 저장했는지
-    여부를 리턴합니다.
- 
-* **Error Response:**
-
-  * **Code:** HTTP_404_NOT_FOUND <br />
-    **Content:** 
-    ```json
-        {
-            "okay": false,
-            "msg": "object not found"
-        }
-    ```
-    해당 id의 clip 이 존재하지 않는 경우
-
-* **Sample Call:**
-
-
-* **Notes:**
-
+```
